@@ -6,7 +6,7 @@ cluster:
   clusterName: beet
   devEnvApprovers:
   - AdrianVarelaG
-  environmentGitOwner: AdrianVarelaG
+  environmentGitOwner: BeetHub
   environmentGitPublic: true
   gitKind: github
   gitName: github
