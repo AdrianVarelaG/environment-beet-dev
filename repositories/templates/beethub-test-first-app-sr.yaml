@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: Beethub
+    provider: github
+    repository: test-first-app
+  name: beethub-test-first-app
+spec:
+  description: Imported application for Beethub/test-first-app
+  httpCloneURL: https://github.com/Beethub/test-first-app.git
+  org: Beethub
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: test-first-app
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/Beethub/test-first-app.git
